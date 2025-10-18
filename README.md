@@ -52,3 +52,7 @@ The project will involve designing a multi-layered architecture for the data war
 - The data model will be designed to consolidate data from both ERP and CRM systems.
 - Detailed documentation will be provided, outlining the structure of each table, view, and the relationship between entities.
 
+<img width="847" height="435" alt="image" src="https://github.com/user-attachments/assets/ccf05a55-4ae8-449f-81f1-0b785eae3514" />
+
+
+
