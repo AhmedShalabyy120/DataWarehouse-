@@ -1,1 +1,33 @@
 
+-- ============================================================
+-- Step 1: Create a new database named 'DataWareHouse'
+-- ============================================================
+CREATE DATABASE DataWareHouse;
+GO
+
+-- ============================================================
+-- Step 2: Switch to the 'DataWareHouse' database context
+-- ============================================================
+USE DataWareHouse;
+GO
+
+-- ============================================================
+-- Step 3: Create the 'bronze' schema
+-- Purpose: To store raw data ingested from source systems
+-- ============================================================
+CREATE SCHEMA bronze;
+GO
+
+-- ============================================================
+-- Step 4: Create the 'silver' schema
+-- Purpose: To store cleaned and transformed data
+-- ============================================================
+CREATE SCHEMA silver;
+GO
+
+-- ============================================================
+-- Step 5: Create the 'gold' schema
+-- Purpose: To store aggregated, business-ready data (for reporting)
+-- ============================================================
+CREATE SCHEMA gold;
+GO
