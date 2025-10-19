@@ -1,5 +1,4 @@
 -- =============================================
-
 -- Procedure:     bronze.load_bronze
 -- Description:   Loads CRM and ERP CSV data into Bronze Layer tables
 -- =============================================
