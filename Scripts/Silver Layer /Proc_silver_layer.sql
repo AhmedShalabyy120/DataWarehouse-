@@ -190,7 +190,7 @@ BEGIN
     )
     SELECT 
         CASE 
-            WHEN cid LIKE 'NAS%' THEN SUBSTRING(cid, 3, LEN(cid))
+            WHEN cid LIKE 'NAS%' THEN SUBSTRING(cid, 4, LEN(cid))
             ELSE cid
         END,
 
@@ -277,5 +277,7 @@ BEGIN
     PRINT 'Total Duration: ' + CAST(DATEDIFF(SECOND, @batch_start_time, @batch_end_time) AS VARCHAR(15)) + ' sec';
     PRINT '';
 END;
+
+
 
 
